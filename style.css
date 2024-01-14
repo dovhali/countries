@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+	color: #444444;
+    background: #EBEBEB;
+}
+
+h2 {
+    font: normal 54px Georgia;
+    letter-spacing: -3px;
+    color: #000000;
+	margin: 20px;
+}
+h3 {
+    font-weight: normal;
+    color: #000000;
+	margin:20px;
+}
+p {
+    padding: .75em 0;
+    line-height: 2em;
+    text-align: justify;
+	margin: 20px;
+}
+nav {
+    clear: both;
+    height: 84px;
+    padding-left: 30px;
+    margin-bottom: 60px;
+    background: black;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    flex: 1;
+    font-size: 1.2em;
+    line-height: 76px;
+    text-transform: lowercase;
+	text-align:center;
+}
+
+nav ul li a {
+    display: block;
+    padding: 0 40px;
+    height: 84px;
+    color: white;
+    text-decoration: none;
+	text-align:center;
+}
+
+nav ul li a:hover {
+    color: #F9E6C8;
+}
+
+nav ul li.active a:hover {
+    color: #F7DAAF;
+}
+p{
+color:black;}
+img{
+width: 450px;
+height:300px;}
+footer {
+    clear: both;
+    height: 20%;
+    padding: 2em 30px;
+    border-top: 1px solid #E9E9E9;
+	background-color:black;
+}
+
+footer p {
+    text-align: center;
+}
+.footer{
+color:white;
+}
+video{
+	width: 300px; 
+	height: 200px;
+}
+.video{
+margin: 20px;}
+
+
+@media screen 
+                and (max-width: 600px){
+                .footer{
+					color: purple;
+                }
+            }
+            @media screen 
+                and (min-width: 601px)
+                and (max-width: 1099px){
+               .footer{
+                   color: red;
+                }
+            }
+            @media screen and (min-width: 1100px){
+                .footer{
+					color: green;
+                }
+            }
